@@ -50,10 +50,12 @@ This dataset offers a comprehensive and balanced resource for analysing long-ter
 The Billboard dataset was created by scraping **Wikipedia Year-End Hot 100** charts (1960–2023) and fetching lyrics via the **Genius API**.  
 It contains approximately **5,580 songs** (≈87 per year).  
 Dataset path:  
-`[github project path]/data/billboard/`
+`Dataset/data/billboard/`
 
-This dataset extends the analysis beyond 2010, focusing on mainstream and commercially successful songs.
-
+**Note:** 
+Due to copyright restrictions, full song lyrics retrieved via the Genius API are not included in this repository.
+Only derived data (e.g., moral scores, sentiment, and emotion features) and metadata are provided.
+Users can reproduce the lyrics collection process using the provided notebooks and their own Genius API key.
 ---
 
 ## 💻 Notebooks Overview
@@ -86,7 +88,7 @@ Each Jupyter Notebook includes data processing, visualisations, and model output
 
 ---
 
-## 🧠 Predicting Moral Foundation Scores
+## 💡 Predicting Moral Foundation Scores
 
 To reproduce or extend the moral predictions used in this work, please refer to the **MoralBERT** repository:  
 🔗 [Predict moral scores with MoralBERT](https://github.com/vjosapreniqi/MoralBERT/blob/main/MoralBert/Predict_mft_scores_from_the_MoralBERT_weights.ipynb)
@@ -104,19 +106,6 @@ Pre-trained models for lyrics are available on Hugging Face:
 - **Temporal Modelling:** via **Generalised Additive Models (GAMs)** for non-linear trend estimation.  
 - **Regression & Correlation:** via **XGBoost** models and **Spearman rank correlations**.  
 - **Lyrical Similarity:** using **DistilBERT embeddings** and **FAISS** approximate nearest neighbour search.
-
----
-
-## 📈 Key Findings (from the Paper)
-
-- **Moral vices** (Harm, Cheating, Subversion, Degradation) have **increased** steadily over time.  
-- **Moral virtues** (Care, Purity, Loyalty) have **declined**, especially after the 1970s.  
-- **Gender & Genre** strongly modulate these trajectories — female artists show higher *Care*, while male and mixed-gender groups lead in *Harm* and *Subversion*.  
-- Moral dimensions are **partly predictable** from sentiment, emotion, and topic-based features.  
-- **Genre-specific models** outperform general ones:  
-  - *Care* → best predicted in **R&B/Soul/Funk**  
-  - *Purity* → strongest in **Religious** songs  
-  - *Harm* and *Degradation* → highest in **Metal**
 
 ---
 
