@@ -50,7 +50,7 @@ This dataset offers a comprehensive and balanced resource for analysing long-ter
 The Billboard dataset was created by scraping **Wikipedia Year-End Hot 100** charts (1960–2023) and fetching lyrics via the **Genius API**.  
 It contains approximately **5,580 songs** (≈87 per year).  
 Dataset path:  
-`Dataset/data/billboard/`
+`[Dataset/data/billboard/](https://github.com/vjosapreniqi/Lyrics-Moral-Evolution/blob/master/Dataset/Billboard_Year_End_1960_2023.csv)`
 
 **Note:** 
 Due to copyright restrictions, full song lyrics retrieved via the Genius API are not included in this repository.
