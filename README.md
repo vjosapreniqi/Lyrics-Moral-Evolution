@@ -87,7 +87,7 @@ Pre-trained models for lyrics are available on Hugging Face:
 
 ## ⚙️ Methods Summary
 
-- **Moral Foundation Prediction:** via *MoralBERT SL* — fine-tuned on GPT-4–generated synthetic lyrics and annotated social media data.  
+- **Moral Foundation Prediction:** via *MoralBERT SL*, fine-tuned on GPT-4, generated synthetic lyrics and annotated social media data.  
 - **Sentiment & Emotion Extraction:** using **VADER** and **NRC Word–Emotion Lexicons**.  
 - **Topic Modelling:** via **LDA** (k = 6 topics, optimised using Cv coherence metric).  
 - **Temporal Modelling:** via **Generalised Additive Models (GAMs)** for non-linear trend estimation.  
