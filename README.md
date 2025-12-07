@@ -1,6 +1,6 @@
-# The Evolution and Expression of Morality in Song Lyrics
+# Evolution of Moral Expression in Song Lyrics
 
-This repository contains the code and data accompanying the paper **“The Evolution and Expression of Morality in Song Lyrics”**, prepared for submission to *Scientific Reports*.  
+This repository contains the code and data accompanying the paper **“Evolution of Moral Expression in Song Lyrics”**, prepared for submission to *Scientific Reports*.  
 It provides scripts, datasets, and Jupyter notebooks used to analyse moral trends in music lyrics across six decades, employing models for moral foundation prediction, sentiment and emotion extraction, and topic modelling.
 
 
